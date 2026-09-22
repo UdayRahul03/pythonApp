@@ -109,7 +109,7 @@ def generate_flight_data():
     return pd.DataFrame(flights)
 # Navigation
 def navigation():
-    st.sidebar.image("✈️" SkyWings Booking")
+    st.sidebar.markdown("# ✈️ SkyWings Booking")
     st.sidebar.title("SkyWings Booking")
     page = st.sidebar.radio(
         "Navigation",
