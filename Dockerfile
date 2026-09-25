@@ -33,5 +33,5 @@ RUN chown -R pythonapp:pythonapp /app
 
 #switch to non root user
 USER pythonapp
-EXPOSE 8502
+EXPOSE 8501
 CMD ["streamlit", "run", "app.py"]
